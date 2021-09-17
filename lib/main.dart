@@ -15,12 +15,20 @@ void main(List<String> args) {
           'Flutter App!',
           style: TextStyle(color: Colors.white),
         ),
+        backgroundColor: Colors.green,
         leading: Icon(
           Icons.flutter_dash_rounded,
           color: Colors.white,
         ),
         elevation: 20,
         actions: const <Widget>[Icon(Icons.ac_unit)],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(
+          Icons.access_alarm,
+          color: Colors.grey.shade900,
+        ),
       ),
     ),
   );
